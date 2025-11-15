@@ -1,6 +1,6 @@
-import type { UserDTO } from "@/cases/users/dtos/user.dto.ts";
+import type { UserDTO } from "@/cases/users/dtos/user.dto";
 import { api } from "@/lib/axios";
-import type { AuthDTO } from "@/cases/auth/dtos/auth.dto.ts";
+import type { AuthDTO } from "@/cases/auth/dtos/auth.dto";
 
 const _ENDPOINT = "/auth";
 
